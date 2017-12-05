@@ -23,6 +23,8 @@ attr_reader :school_name, :roster
   end
 
   def sort
-    @roster.sort
+    @roster.each {|grade, student|
+      student.sort
+    }
   end
 end
