@@ -24,9 +24,7 @@ attr_reader :school_name, :roster
 
   def sort
     @roster.each {|grade, student|
-      grade.sort {|s|
-      s.sort
+      student.sort
       }
-    }
   end
 end
