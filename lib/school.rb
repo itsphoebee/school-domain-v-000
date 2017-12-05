@@ -30,4 +30,3 @@ attr_reader :school_name, :roster
   @roster
 end
 
-end
