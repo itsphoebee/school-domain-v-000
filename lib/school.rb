@@ -4,7 +4,7 @@ class School
 roster = {}
   def initialize(name)
     @name = name
-  end 
+  end
 
   def add_student(name, grade)
     roster = [:grade] => name
