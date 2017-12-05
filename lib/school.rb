@@ -23,7 +23,7 @@ attr_reader :school_name, :roster
   end
 
   def sort
-    @roster.each {|grade, student|
+    @roster.map {|grade, student|
       student.sort
       }
   end
