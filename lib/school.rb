@@ -14,4 +14,7 @@ attr_reader :school_name, :roster
     @roster
   end
 
+  def grade
+  end
+    
 end
