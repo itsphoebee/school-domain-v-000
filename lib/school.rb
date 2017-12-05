@@ -18,4 +18,6 @@ attr_reader :school_name, :roster
     @roster[grade]
   end
 
+  def sort
+    @roster.sort
 end
