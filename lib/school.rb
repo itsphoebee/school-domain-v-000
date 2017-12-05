@@ -12,6 +12,8 @@ attr_reader :school_name, :roster
     if @roster[grade] == nil
       @roster[grade] = []
       @roster[grade] << name
+    elsif @roster[grade].length > 0
+      @roster[grade] << name
     end
     @roster
   end
