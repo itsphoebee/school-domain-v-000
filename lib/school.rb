@@ -24,6 +24,7 @@ attr_reader :school_name, :roster
   end
 
   def sort
-    @roster.sort_by!{|a| a[:grade][name]
+    @roster.sort_by! {|name| name.downcase
+      
     }
 end
