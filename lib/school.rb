@@ -13,8 +13,8 @@ attr_reader :school_name, :roster
       @roster[grade] = []
       @roster[grade] << name
     elsif @roster[grade].length > 0
+      @roster[grade] << name
     end
-    @roster
   end
 
   def grade(grade)
