@@ -20,4 +20,5 @@ attr_reader :school_name, :roster
 
   def sort
     @roster.sort
+  end
 end
