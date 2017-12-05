@@ -27,4 +27,5 @@ attr_reader :school_name, :roster
       student.sort
       }
   end
+  @roster
 end
