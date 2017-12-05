@@ -12,7 +12,7 @@ attr_reader :school_name, :roster
     if @roster[grade] == nil
     @roster[grade] = []
     @roster[grade] << name
-    else 
+    else
       @roster[grade] << name
     end
     @roster
