@@ -13,7 +13,6 @@ attr_reader :school_name, :roster
       @roster[grade] = []
       @roster[grade] << name :
       @roster[grade] << name
-    end
     @roster
   end
 
